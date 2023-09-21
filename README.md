@@ -6,7 +6,7 @@ We tried to make this training as foundational as possible, but you may need to 
 
 ## Getting Started
 
- 1. Install [Git](https://github.com/git-guides/install-git) and [GitHub Command Line Interface (CLI)](https://cli.github.com/). Use the linked  guides to complete  the installation process. You can also use a package manager such as [Homebrew](https://brew.sh/) for macOS, [Chocolatey](https://chocolatey.org/) for Windows, or even [APT][https://wiki.debian.org/Apt]/[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) for Linux. 
+ 1. Install [Git](https://github.com/git-guides/install-git) and [GitHub Command Line Interface (CLI)](https://cli.github.com/). Use the linked  guides to complete  the installation process. You can also use a package manager such as [Homebrew](https://brew.sh/) for macOS, [Chocolatey](https://chocolatey.org/) for Windows, or even [APT](https://wiki.debian.org/Apt)/[DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/) for Linux.
  
  2. Register for a [GitHub Account](https://github.com/join). You are encouraged, but **not** required, to set up 2-Factor Authentication.
  
