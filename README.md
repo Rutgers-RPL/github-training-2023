@@ -73,6 +73,8 @@ We tried to make this training as foundational as possible, but you may need to 
 
    ![Error Displaying Image!](./gfx/branches_diagram.png "Branching Diagram")
 
+   **Remember:** Git doesn't track files, it tracks *changes*. So, if your digital chain of changes ever gets broken, you'll likely run into big problems. 
+
 7. To create a new branch, we can use the `git checkout` command.
 
    ```Shell
@@ -119,3 +121,46 @@ We tried to make this training as foundational as possible, but you may need to 
    3. (Optional) You can test our code by calling `python main.py` in the repository directory.
 
 ## Committing, Pushing, and Merging Changes
+
+1. We're almost over the finish line. Now, we need to tell Git what files we want it to include in the commit. A commit is a snapshot of a bundle of changes. We can do this by using the `git add` command. We need to add all the files we want to include, everytime we commit.
+
+   ``` Shell
+   git add main.py
+   git add ./individual_introductions/first_last.py
+   ```
+
+   You can see that your changes are ready to be included in the next commit by using the `git status` command. You should see that your desired files are in the "Changes to be committed:" section.
+
+2. Now, let's take a snapshot of our work by *committing* our changes. This will take a snapshot of the current state of all of our added files and bundle them together.
+
+   ```Shell
+   git commit -m "GitHub Training Additions & Changes"
+   ```
+
+   Commit messages (denoted by the `-m` flag) are a required part of making commits. They should be insightful and give a brief overview of what changes the commit contains. Commit messages should never exceed 50 characters.
+
+   Calling `git status` now will now show that there are no changes to be commited. On the other hand, the `git log` will show that we have added a commit to our repository.
+
+3. Finally, we need to send our changes back up into the cloud. We do that by performing a `git push`. If this is the first push you make on your current branch, you'll need to specify a destination to send your changes in the cloud. This is done by using the `--set-upstream` flag. If the branch doesn't already exist in the cloud, Git will automatically create it.
+
+   ```Shell
+   git push --set-upstream origin "your-branch-name"
+   ```
+
+4. We're now done with the local part of the training. Now, we need to go online in order to merge our changes into the main branch of code. In most team repositories, the main branch will be protected, meaning that is always in a functional state. Thus, we need to create a `pull request` in order to have our changes considered for merging. If the changes are approved, the branches will be merged and the changes will be pulled over into main.
+   
+   1. Login to GitHub in another tab. Navigate to the [repository page](https://github.com/Rutgers-RPL/github-training-2023).
+
+   2. Click on the branches drop down and select your branch.  
+
+      ![Error Displaying Image!](./gfx/repo-page.png "Repo Homepage")
+
+   3. Click on the contribute button. Open a pull request.
+   
+      ![Error Displaying Image!](./gfx/open-pr.png "Open Pull Request")
+
+   4. Write a brief description of your work and select Shivam Patel (@shivammpat) as you reviewer.
+
+      ![Error Displaying Image!](./gfx/create-pr.png "Create Pull Request")
+
+5. That's it! If you did everything correctly, a team lead will review your pull request and merge your changes into the main branch. When that happens, you're all done. Congratulations and welcome aboard!
