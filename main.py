@@ -5,6 +5,7 @@ sys.path.append('./individual_introductions') # or this 👉👈
 from individual_introductions import shivam_patel
 from individual_introductions import andrew_huth
 from individual_introductions import manish_kandepalli
+from individual_introductions import harris_ransom
 from individual_introductions import Sean_Johnson
 from individual_introductions import spenser_butrym
 from individual_introductions import jason_merchan
@@ -19,6 +20,7 @@ def main():
     spenser_butrym.intro()
     jason_merchan.intro()
     aj_lipiarski.intro()
+    harris_ransom.intro()
 
 if __name__ == '__main__':
     main()
