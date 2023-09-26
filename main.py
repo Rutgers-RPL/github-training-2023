@@ -10,17 +10,21 @@ from individual_introductions import Sean_Johnson
 from individual_introductions import spenser_butrym
 from individual_introductions import jason_merchan
 from individual_introductions import aj_lipiarski
+from individual_introductions import william_lydon
+
 
 def main():
     
     shivam_patel.intro() # call your intro function
     andrew_huth.intro()
+
     manish_kandepalli.intro()
     Sean_Johnson.intro()
     spenser_butrym.intro()
     jason_merchan.intro()
     aj_lipiarski.intro()
     harris_ransom.intro()
-
+    william_lydon.intro()
+    
 if __name__ == '__main__':
     main()
