@@ -1,0 +1,2 @@
+def intro()
+print('Hi! My name is Noam Milman and I am a first year Biomedical Engineering student.\n I am super excited to be part of RPL because I love building cool stuff (duh)\n and I am considering a minor in computer science and want to explore the field. \n I hope I become a valuable member of the team since I am new to all of this, but I am extremely hype nonetheless.')
