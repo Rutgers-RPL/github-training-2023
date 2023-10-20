@@ -1,0 +1,2 @@
+def intro():
+    print('Hi! My name is Noam Milman. \n I am a first year biomedical engineering student.\n I am super excited to join RPL telemetry because I am considering a minor in computer science \n ,and rockets are super cool, obvioulsy.')
