@@ -12,6 +12,7 @@ from individual_introductions import spenser_butrym
 from individual_introductions import jason_merchan
 from individual_introductions import aj_lipiarski
 from individual_introductions import william_lydon
+from individual_introductions import ravi_patel
 from individual_introductions import cy_westbrook
 
 def main():
@@ -26,6 +27,7 @@ def main():
     aj_lipiarski.intro()
     harris_ransom.intro()
     william_lydon.intro()
+    ravi_patel.intro()
     cy_westbrook.intro(32)
     
 if __name__ == '__main__':
