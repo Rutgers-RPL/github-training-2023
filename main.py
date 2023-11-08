@@ -14,7 +14,7 @@ from individual_introductions import aj_lipiarski
 from individual_introductions import william_lydon
 from individual_introductions import cy_westbrook
 from individual_introductions import patrick_dunay
-
+from individual_introductions import maksim_popov
 def main():
     
     shivam_patel.intro() # call your intro function
@@ -29,6 +29,7 @@ def main():
     william_lydon.intro()
     cy_westbrook.intro(32)
     patrick_dunay.intro()
+    maksim_popov.intro()
     
 if __name__ == '__main__':
     main()
