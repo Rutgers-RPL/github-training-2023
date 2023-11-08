@@ -13,6 +13,7 @@ from individual_introductions import jason_merchan
 from individual_introductions import aj_lipiarski
 from individual_introductions import william_lydon
 from individual_introductions import cy_westbrook
+from individual_introductions import patrick_dunay
 
 def main():
     
@@ -27,6 +28,7 @@ def main():
     harris_ransom.intro()
     william_lydon.intro()
     cy_westbrook.intro(32)
+    patrick_dunay.intro()
     
 if __name__ == '__main__':
     main()
