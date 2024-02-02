@@ -16,6 +16,8 @@ from individual_introductions import cy_westbrook
 from individual_introductions import patrick_dunay
 from individual_introductions import maksim_popov
 from individual_introductions import mahir_shah
+from individual_introductions import Aman_Grandhi
+
 def main():
     
     shivam_patel.intro() # call your intro function
@@ -32,6 +34,7 @@ def main():
     patrick_dunay.intro()
     maksim_popov.intro()
     mahir_shah.intro()
+    Aman_Grandhi.intro()
     
 if __name__ == '__main__':
     main()
